@@ -34,7 +34,7 @@ position: absolute; z-index: 99999; }
 /*.resume .photo { margin-top: 15px; display: none;}*/
 .resume .has-photo .photo { display: block; }
 .resume .photo img{box-shadow: 0 0 2px rgba(0,0,0,0.5);}
-.resume a { color: #000 }
+/* .resume a { color: #000 } */
 /*.resume * {display: block !important; }*/
 /*.side-bar {height: 100%;}*/
 .content-bar span {page-break-inside: avoid;}
@@ -64,7 +64,7 @@ position: absolute; z-index: 99999; }
 .recommendations .company { display: inline; vertical-align: middle;}
 .block.publications a {color: inherit; text-decoration: underline;}
 
-.resume .icon { margin-left: 8mm; position: relative; display: inline-block;}
+.resume .icon { margin-left: 6mm; position: relative; display: inline-block;}
 .resume .icon:before { font-style: normal; position: absolute; width: 6mm; text-align: center; margin-left: -8mm; }
 /* .resume .icon-envelope:before { content: "\f0e0"; }
 .resume .icon-phone:before { content: "\f095"; }
@@ -583,7 +583,7 @@ font: normal normal normal 24px/1 FontAwesome; color: #28aee4; text-align: cente
 .tpl6 .personal{margin-bottom: 20px;}
 .tpl6 .resume{margin-top: 0;}
 .tpl6 .side-bar .photo {margin: auto;padding-top: 5px;padding-bottom: 20px;border-radius: 10px; width: 100px;background: none;/*#e7e5e8;*/}
-.tpl6 .side-bar .photo img { width: 100px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.5);}
+.tpl6 .side-bar .photo img { width: 100px; border-radius: 50px;padding: 3px; box-shadow: 0 0 10px rgba(0,0,0,0.5);}
 .tpl6 .side-bar .header{background: none;text-align: left;}
 .tpl6 .side-bar .contacts .header.fio { margin-top: 0;}
 .tpl6 .side-bar .contacts .item { padding-bottom: 5px;}
