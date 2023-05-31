@@ -1,5 +1,24 @@
-/* @font-face {
-    font-family: "Roboto";
-    src: url(/assets/Roboto/Roboto-Black.ttf);
-    
-} */
+div.preview {margin: auto; height: 1143px; max-height: 1143px; width: 795px; max-width: 795px; overflow-x: hidden; overflow-y: auto;}
+body {padding: 0;margin: 0;}
+.mark{background-color: transparent !important;}
+body{
+    font-family: 'Roboto' !important;
+    min-width: 0px !important;
+}
+.contacts > div.icon::before{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.resume a {
+    color: #444444;
+}
+
+#photo{
+    width: 150px;
+}
+
+#photo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+}
